@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".welcomeActivity"
+    android:background="#71f1f738">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="           WELCOME\n"
+        android:textSize="30dp"
+        android:id="@+id/textView_welcome"
+        android:layout_alignEnd="@+id/button_start"
+        android:layout_alignParentStart="true"
+        android:textColor="#df5050" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LETS START"
+        android:id="@+id/button_start"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        style="@style/Animation.AppCompat.Dialog"
+        android:background="#50c9457c"
+        android:backgroundTintMode="screen"
+        android:clickable="false"
+        android:elegantTextHeight="false"
+        android:enabled="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:shadowColor="#6441a2e8"
+        android:theme="@style/Animation.AppCompat.DropDownUp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="21. Avdhut C. Kadam\t\t\t22. Asif A. Shaikh\n\n\n23. Seema M. Jadhav\t \t24. Alisha M. Nadaf\n\n\n25. Jyoti S. Shahapure"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/textView16"
+        android:textColor="#2d49c7"
+        android:layout_alignEnd="@+id/textView_welcome"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mr. N. T. Patil"
+        android:id="@+id/textView15"
+        android:textColor="#2d49c7"
+        android:layout_above="@+id/button_start"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="47dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed by-\n"
+        android:id="@+id/textView16"
+        android:layout_below="@+id/textView_welcome"
+        android:textColor="#e52dd3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guide-"
+        android:id="@+id/textView10"
+        android:layout_above="@+id/textView15"
+        android:layout_alignStart="@+id/textView15"
+        android:textColor="#e52dd3" />
+
+</RelativeLayout>
